@@ -84,7 +84,7 @@ controls.target.set(0, 1.5, 0) // apunta al centro aproximado de la casa
 
 // Auto-rotación opcional
 controls.autoRotate = true
-controls.autoRotateSpeed = 0.5
+controls.autoRotateSpeed = 0.08
 
 const controlsFolder = gui.addFolder('Controls')
 controlsFolder.add(controls, 'autoRotate').name('Auto rotar')
